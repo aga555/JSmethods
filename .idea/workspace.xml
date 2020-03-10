@@ -36,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583844161893</updated>
-      <workItem from="1583844163112" duration="9414000" />
+      <workItem from="1583844163112" duration="9808000" />
     </task>
     <task id="LOCAL-00001" summary="#v">
       <created>1583846270239</created>
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583872920020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="# prototype  sort- short version">
+      <created>1583873150462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583873150462</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,13 +123,18 @@
     <MESSAGE value="#filter function- shorter" />
     <MESSAGE value="# prototype map" />
     <MESSAGE value="# prototype  sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="# prototype  sort" />
+    <MESSAGE value="# prototype  sort- short version" />
+    <option name="LAST_COMMIT_MESSAGE" value="# prototype  sort- short version" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="173" key="CommitChangelistDialog2" timestamp="1583872919419">
+    <state x="891" y="173" key="CommitChangelistDialog2" timestamp="1583873149829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="891" y="173" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583872919419" />
+    <state x="891" y="173" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583873149829" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583873427896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583873427896" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1583850097599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
