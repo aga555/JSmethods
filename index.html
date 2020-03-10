@@ -23,12 +23,8 @@
         'Geck, Glen', 'Neck, Glen', 'Ceck, Ylen', 'Zeck, Glen', 'Keck, Glen', 'Leck, Glen',
         'Qeck, Glen'];
 
-    const fiteen = inventors.filter(function (inventor) {
-        if (inventor.year>=1500 && inventor.year<1600){
-            return true;  // keep it
-        };
+    const fiteen = inventors.filter(investor=>investor.year> 1500 && investor.year<1700);
 
-    });
     console.log(fiteen);
 
 </script>
