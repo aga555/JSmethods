@@ -23,8 +23,17 @@
         'Geck, Glen', 'Neck, Glen', 'Ceck, Ylen', 'Zeck, Glen', 'Keck, Glen', 'Leck, Glen',
         'Qeck, Glen'];
 
-    const fiteen = inventors.filter(investor=>investor.year> 1500 && investor.year<1700);
+/*   Array protoptype.filter
+ 1 filter thelist of investors for these who were born in the 1500's
+ const fiteen = inventors.filter(investor => investor.year > 1500 && investor.year < 1700);
 
-    console.log(fiteen);
+    console.log(fiteen);*/
 
+
+    /*Array prototype.map()
+    2 Give us  an array of  the investors ( first name and last name)*/
+
+
+    const  fullNames = inventors.map( inventor => inventor.first + inventor.last);
+    console.log(fullNames);
 </script>
