@@ -79,6 +79,6 @@ const oldest= inventors.sort( function (a, b){
 6. create a list of Boulevar in Paris that containt 'de' anywere in the name*/
 
 const  category=document.querySelector('.mw-content');
-const links =category.querySelectorAll('a');
+const links = Array.from(category.querySelectorAll('a'));
 const de= links.map(link=>link.textContent);
 </script>
