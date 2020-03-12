@@ -39,47 +39,56 @@
     /*3 sort  the inventors by birthday
 
     * */
-  /*  const oldest = inventors.sort(function (a, b) {
-        if (a.year > b.year) {
-            return 1;
+    /*  const oldest = inventors.sort(function (a, b) {
+          if (a.year > b.year) {
+              return 1;
 
-        } else {
+          } else {
+              return -1
+          }
+
+      })
+  console.log(oldest);*/
+    /* const oldest= inventors.sort((a,b)=>a.year>b.year ? 1: -1);
+        console.log(oldest);*/
+
+    /* Array prototype reduce
+    * How many years did all the inventors live*/
+    /*let  totalYears=0 ;
+    for (let i=1; i<inventors.length; i++){
+        totalYears +=inventors[i].year;
+    }*/
+
+    /*const  totslYears=inventors.reduce((total,inventor)=>{
+        return total+ (inventor.passed-inventor.year);
+    },0);
+    console.log(totslYears);*/
+    /*
+    const oldest= inventors.sort( function (a, b){
+        const lastGuy = a.passed - a.year;
+        const nextGay = b.passed - b.year;
+        if(lastGuy>nextGay){
+            return -1;
+        }
+        else {
             return -1
         }
+        })
+        console.log(oldest);*/
+    /*
+    6. create a list of Boulevar in Paris that containt 'de' anywere in the name*/
+    /*
+    const  category=document.querySelector('.mw-content');
+    const links = Array.from(category.querySelectorAll('a'));
+    const de= links.map(link=>link.textContent)
+                    .filter(streetName=>streetName.includes('de'));*/
 
-    })
-console.log(oldest);*/
-/* const oldest= inventors.sort((a,b)=>a.year>b.year ? 1: -1);
-    console.log(oldest);*/
+    /*7. sort exercises*/
+    const alpha = people.sort(function (lastOne, firstOne) {
+        const [alast,afirst] = lastOne.split(',');
+        const [blast,bfirst] = firstOne.split(',');
 
-/* Array prototype reduce
-* How many years did all the inventors live*/
-/*let  totalYears=0 ;
-for (let i=1; i<inventors.length; i++){
-    totalYears +=inventors[i].year;
-}*/
-
-/*const  totslYears=inventors.reduce((total,inventor)=>{
-    return total+ (inventor.passed-inventor.year);
-},0);
-console.log(totslYears);*/
-/*
-const oldest= inventors.sort( function (a, b){
-    const lastGuy = a.passed - a.year;
-    const nextGay = b.passed - b.year;
-    if(lastGuy>nextGay){
-        return -1;
-    }
-    else {
-        return -1
-    }
-    })
-    console.log(oldest);*/
-/*
-6. create a list of Boulevar in Paris that containt 'de' anywere in the name*/
-
-const  category=document.querySelector('.mw-content');
-const links = Array.from(category.querySelectorAll('a'));
-const de= links.map(link=>link.textContent)
-                .filter(streetName=>streetName.includes('de'));
+        return alast>blast ? 1 : -1 ;
+    });
+    console.log(alpha);
 </script>
